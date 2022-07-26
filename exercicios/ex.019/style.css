@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: #B4E1EB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #6D9E8A;
+}
+h1#principal {
+    background-color: #495A5E;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: #3CAB70;
+}
+.basico {
+    color: green;
+}
+.medio {
+    color: rgb(174, 214, 65);
+}
+.dificil {
+    color: red;
+}
+.basic2 {
+    color: green;
+}
+.medi2 {
+    color: rgb(174, 214, 65);
+}
+.difi2 {
+    color: red;
+}

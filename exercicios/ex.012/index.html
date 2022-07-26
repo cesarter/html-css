@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mídias em HTML5</title>
+</head>
+<body>
+    <h1>mídias em HTML5</h1>
+    <style>
+        body{
+            background-color: rgb(125, 142, 150);
+        }
+    </style>
+    <hr>
+    <h2>imagem dinâmica</h2>
+    <p>tente diminuir e aumentar a tela do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" 
+        srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h2>áudio no site</h2>
+    <p>vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="midia/musica.mp3" controls autoplay></audio>
+    <h2>vamos reproduzir videos</h2>
+    <p>vamos aprender a reproduzir videos em HTML5</p>
+    <video src="videos/videos-10358140.mp4" width="500px" controls></video>
+</body>
+</html>
