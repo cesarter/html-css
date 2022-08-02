@@ -16,11 +16,29 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            background-color: rgba(128, 128, 128, 0.315);
+            font-weight: bold;
+            font-size: 1.4em;
+            padding: 7px;
         }
 
         td, th {
             border: 1px solid black;
             padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(128, 128, 128);
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         thead, tfoot {
@@ -29,25 +47,65 @@
         }
     </style>
     <table>
+        <caption>população das unidades federativas</caption>
         <thead>
             <tr>
                 <th>estado</th>
                 <th>população</th>
-
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>são paulo</td>
-                <td>45 919 049</td>
+                <td>45.919.049</td>
             </tr>
             <tr>
                 <td>minas gerais</td>
-                <td>21 168 791</td>
+                <td>21.168.791</td>
             </tr>
             <tr>
                 <td>rio de janeiro</td>
-                <td>17 264 943</td>
+                <td>17.264.943</td>
+            </tr>
+            <tr>
+                <td>sergipe</td>
+                <td>8.796.448</td>
+            </tr>
+            <tr>
+                <td>paraiba</td>
+                <td>3.766.528</td>
+            </tr>
+            <tr>
+                <td>ceara</td>
+                <td>8.452.381</td>
+            </tr>
+            <tr>
+                <td>alagoas</td>
+                <td>3.120.494</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td>3.483.985</td>
+            </tr>
+            <tr>
+                <td>roraima</td>
+                <td>450.479</td>
+            </tr>
+            <tr>
+                <td>rondonia</td>
+                <td>1.562.409</td>
+            </tr>
+            <tr>
+                <td>acre</td>
+                <td>733.559</td>
+            </tr>
+            <tr>
+                <td>amapa</td>
+                <td>669.526</td>
+            </tr>
+            <tr>
+                <td>prnambuco</td>
+                <td>8.796.448</td>
             </tr>
         </tbody>
         <tfoot>
