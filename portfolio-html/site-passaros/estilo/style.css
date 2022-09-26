@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #ADEB65;
+    --cor2: #78D113;
+    --cor3: #0ED842;
+    --cor4: #0E9E32;
+    --cor5: #08541B;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #adeb654d;
+}
+
+header {
+    background-image: url(../imagens/fundo-de-folhas-tropicais.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    min-height: 100px;
+}
+
+header > h1 {
+    font-size: 6vw;
+    margin-bottom: 35px;
+    color: #88ff00;
+}
+
+header > p {
+    font-size: 1.3em;
+    color: #88ff00;
+}
+
+nav {
+    background-color: var(--cor5);
+    background-position: center;
+    padding: 10px;
+}
+
+nav > a {
+    margin-right: 30px;
+    border-radius: 7px;
+    padding: 4px;
+    background-color: #1cd14a4b;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover {
+    transition-duration: .5s;
+    background-color: var(--cor4);
+}
+
+main {
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(71, 165, 63, 0.242);
+    line-height: 2.4em;
+    padding: 20px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+main img {
+    width: 100%;
+}
+
+main h1, h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+main p {
+    font-size: 1.1em;
+}
+
+main h1 {
+    color: var(--cor4);
+    font-size: 2em;
+}
+
+div.video {
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside > h3 {
+    background-color: #33ff00a2;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: var(--cor2);
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+
